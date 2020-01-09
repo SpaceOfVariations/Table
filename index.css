@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border-left: 9px solid black;
+    border-right: 9px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background: #2e4663;
+    margin: 45px;
+    display: flex;
+    width: 600px;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.box {
+    color: white;
+    border: 1px solid white;
+    background: #2e4663;
+    text-align: center;
+    flex-basis: 33.29%;
+    line-height: 93px;
+}
+
+body {
+    margin: 45px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.element1, .element2, .element3, .element4 {
+flex-basis: 50%;
+line-height: 140px;
+}
+
+.element1 {
+    order: 1;
+    border-left: 4px solid white;
+    border-top: 2px solid white;
+}
+
+.element2 {
+    order: 2;
+    border-left: 4px solid white;
+    border-bottom: 3px solid white;
+}
+
+.element3 {
+    order: 3;
+    border-top: 2px solid white;
+}
+
+.element4 {
+    order: 4;
+    border-bottom: 3px solid white;
+}
+
+.element5 {
+    order: 5;
+    border-top: 2px solid white;
+    border-bottom: 0.5px solid white;
+}
+
+.element6 {
+    order: 8;
+    border-top: 2px solid white;
+    border-bottom: 0.5px solid white;
+
+}
+
+.element7 {
+    order: 11;
+    border-top: 2px solid white;
+    border-right: 4px solid white;
+    border-bottom: 0.5px solid white;
+
+}
+
+.element8 {
+    order: 6;
+    border-bottom: 0.5px solid white;
+    border-top: 0.5px solid white;
+}
+
+.element9 {
+    order: 9;
+    border-bottom: 0.5px solid white;
+    border-top: 0.5px solid white;
+
+}
+
+.element10 {
+    order: 12;
+    border-right: 4px solid white;
+    border-bottom: 0.5px solid white;
+    border-top: 0.5px solid white;
+}
+
+.element11 {
+    order: 7;
+    border-bottom: 3px solid white;
+    border-top: 0.5px solid white;
+}
+
+.element12 {
+    order: 10;
+    border-bottom: 3px solid white;
+    border-top: 0.5px solid white;
+}
+
+.element13 {
+    order: 13;
+    border-right: 4px solid white;
+    border-bottom: 3px solid white;
+    border-top: 0.2px solid white;
+}
